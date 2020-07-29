@@ -6,7 +6,7 @@ Library  SeleniumLibrary
 *** Keywords ***
 Begin Web Test
     [Documentation]    To open browser instance and meximize it.
-    Open Browser  about:blank  chrome
+    Open Browser  about:blank  firefox
     Maximize Browser Window
 
 End Web Test
